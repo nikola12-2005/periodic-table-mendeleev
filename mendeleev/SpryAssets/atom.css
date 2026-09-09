@@ -1,0 +1,135 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #000000;
+	margin-left: 10px;
+	background-color: #000000;
+	background-image: url(../images/back.jpg); background-position:center;
+}
+/* Styles for the filter links */
+a:link, a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+/* sets the width of the whole table so it doesn't wrap on smaller screens. */
+#wholeContainer {
+	width: 1250px;
+}
+/* positions the last 2 rows. The width */
+#Lanthanide {
+	margin-left:175px;
+}
+#tooltip {
+	background-color: #FFFFCC;
+	border: 2px solid #666666;
+	padding: 4px;
+	color: #333333;
+}
+#wholeContainer #filters {
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+/* Used to hide data references and source table on page load */
+.SpryHiddenRegion {
+	visibility: hidden;
+}
+/* Positioning text in the Element Div */
+.group {
+	float: right;
+	text-align: right;
+}
+.weight {
+	text-align: left;
+	float: left;
+	vertical-align: bottom;
+}
+.number {
+	text-align: left;
+	float: left;
+}
+/* Class that sets size and float of main element div */
+.elementBlock {
+	height: 50px;
+	font-size:0.8em;
+	width: 50px;
+	padding: 3px;
+	border: 1px solid #000000;
+	float:left;
+	position:relative;
+	cursor: default;
+	color: #000000;
+}
+.hover {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+/* Used to position these two elements correctly when we break out the Lanthanide/Actinide periods */
+.lanthanide, .actinide{
+	float:left;
+	position:relative;
+}
+/* Pushes over their rows so it looks like a periodic table */
+.Hidrogen {
+	margin-right:928px;
+}
+.Beriliu, .Magnesiu {
+	margin-right:580px;
+}
+/* --- */
+.Lanthanum, .Actinium{
+	position:inherit;
+}
+.elementBlock p {
+	font-weight: bold;
+	line-height: 0.2em;
+	font-size: 1.4em;
+	margin-top:22px;
+	margin-bottom:10px;
+}
+/* Colors for Element Types */
+.NeMetale{
+	background-color:#FF6600
+}
+.GazeNobile{
+	background-color:#00CC66
+}
+.MetalAlcalin{
+	background-color:#99FF00
+}
+.MetalAlcalinoPamantos{
+	background-color:#CCCC33
+}
+.Halogen{
+	background-color:#FFFF33
+}
+.AlteMetale{
+	background-color:#66CCCC
+}
+.MetalDeTranzitie{
+	background-color:#CC6666
+}
+.MetaleRare{
+	background-color:#3399FF
+}
+.Teoretic{
+	background-color:#9900CC
+}
+/* HACK FOR IE: to make sure the tooltips show above form controls, we underlay each tooltip with an iframe . This is the only rule in SpryTooltip.css*/
+.iframeTooltip
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+/* ---*/
+.grayOut {
+	opacity: .3;
+	filter: alpha(opacity=30);
+}
+.redText {
+	color: #ccc;
+}
+.SpryHiddenClass  {
+	display:none;
+}
