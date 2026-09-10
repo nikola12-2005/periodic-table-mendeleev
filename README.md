@@ -2,7 +2,7 @@ Periodic Table of Elements
 
 An interactive periodic table built with HTML, CSS, and JavaScript for [module name] at DCU.
 
-Live site: https://nikola12-2005.github.io/periodic-table-mendeleev/
+Live site: https:[//nikola12-2005.github.io/periodic-table-mendeleev/](https://nikola12-2005.github.io/periodic-table-mendeleev/mendeleev.html)
 
 Features
 Browse elements by group and period
